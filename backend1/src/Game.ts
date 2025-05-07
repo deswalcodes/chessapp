@@ -1,0 +1,28 @@
+import { Chess } from "chess.js";
+import { WebSocket } from "ws";
+
+
+export class Game {
+    public player1 : WebSocket;
+    public player2 : WebSocket;
+    
+    private board : Chess;
+    private startTime : Date;
+
+    constructor(player1:WebSocket,player2:WebSocket){
+        this.player1 = player1;
+        this.player2 = player2;
+        this.board = new Chess();
+        
+        this.startTime = new Date();
+    }
+    addMove(socket:WebSocket,move:{
+        from : string,
+        to : string
+    }){
+        
+
+
+    }
+
+}
