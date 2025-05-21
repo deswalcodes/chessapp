@@ -25,8 +25,8 @@ A real-time, two-player chess game built with **React** and **WebSockets (`ws`)*
 
 A demo of the app is included in the `screenshots/` folder as a screen recording:
 
-📹 **[Click here to watch the demo](./screenshots/chesss.mov)**  
-Or open the file locally: `screenshots/chesss.mov`
+📹 **[Click here to watch the demo](chesss.mov)**  
+Or open the file locally: `chesss.mov`
 
 ## 🚀 Getting Started
 
